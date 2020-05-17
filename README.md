@@ -1,5 +1,5 @@
 # auto-deployment
-运行与nodejs环境的自动化部署插件，在gitee配置webhook后，push项目即可自动部署至服务器。
+运行于nodejs环境的自动化部署插件，在gitee配置webhook后，push项目即可自动部署至服务器。
 
 [![GitHub stars](https://img.shields.io/github/stars/acccccccb/auto-deployment?style=for-the-badge)](https://github.com/acccccccb/auto-deployment/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/acccccccb/auto-deployment?style=for-the-badge)](https://github.com/acccccccb/auto-deployment/network)
