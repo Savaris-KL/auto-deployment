@@ -55,6 +55,16 @@ node yourjs.js
 |port|端口|Number|是|-
 |method|请求方法|string|是|POST/GET
 |url|链接|string|是|'/'
-|acceptToken|认证|string|是|-
+|acceptToken|认证token|string|是|-
 |userAgnet|ua|string|是|-
-|cmd|要执行的命令|arr|是|-
+|type|执行命令或脚本文件|string|是|command/file
+|executeFile|执行脚本文件的全路径|string|type='file'时必填|-
+|cmd|要执行的命令|arr|type='command'时必填|[]
+|async|同步/异步(同步将在命令执行完毕后返回执行结果，异步直接返回成功)|Boole|是|true/false
+
+### 更新日志
+
+----
+1.0.2
+1.新增异步执行方式，异步执行不再检测命令是否执行成功
+2.新增3个参数：async,type,executeFile
