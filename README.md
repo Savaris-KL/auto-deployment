@@ -38,10 +38,10 @@ node yourjs.js
 
 #### 然后再去Gitee项目配置里的WebHooks管理添加一个WebHooks
 
-![gitee](https://www.ihtmlcss.com/wp-content/uploads/2020/05/1.png)
+![gitee](https://ihtmlcss.oss-cn-chengdu.aliyuncs.com/2020/05/1.png)
 
 设置好后保存，会请求一次，返回200就是配置好了
-![gitee](https://www.ihtmlcss.com/wp-content/uploads/2020/05/2.png)
+![gitee](https://ihtmlcss.oss-cn-chengdu.aliyuncs.com/2020/05/2.png)
 
 
 以上必须用ssh登陆服务器并运行yourjs.js才可以实现自动部署，你也可以将此命令加入到开机脚本中，让服务器自动启用服务，实现100%自动部署，如何修修改开机脚本请自行百度。
