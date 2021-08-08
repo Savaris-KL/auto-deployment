@@ -1,26 +1,18 @@
 {
-  "name": "auto-deployment",
-  "version": "1.0.3",
-  "description": "auto deployment",
+  "name": "auto-deployment-codingnet",
+  "version": "1.0.5",
+  "description": "auto deployment for coding.net",
   "main": "index.js",
   "scripts": {
     "example": "node example.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acccccccb/auto-deployment.git"
-  },
   "keywords": [
     "auto",
     "deployment"
   ],
-  "author": "acccccccb",
+  "author": "yanzhi.mo",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/acccccccb/auto-deployment/issues"
-  },
-  "homepage": "https://github.com/acccccccb/auto-deployment#readme",
   "devDependencies": {
     "buffer": "^5.6.0",
     "iconv-lite": "^0.6.2"
